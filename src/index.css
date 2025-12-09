@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-app-offwhite text-app-black;
+  }
+}
+
+@layer components {
+  .neo-card {
+    @apply border-2 border-app-black shadow-neobrutalism bg-white;
+  }
+
+  .neo-button {
+    @apply border-2 border-app-black shadow-neobrutalism active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all;
+  }
+}
